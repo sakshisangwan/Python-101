@@ -5,6 +5,7 @@ period = int (input("Enter the time period: "))
 val = 0
 year = 1
 while year <= period:
+    #Calculating Value 
 	value = amount + (inrate*amount)
 	print("Year %d Rs. %.2f" % (year, value))
 	amount = value
